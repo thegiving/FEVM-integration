@@ -25,7 +25,8 @@
         "GrapeCity.gc-excelviewer",
         "tomoki1207.pdf",
         "streetsidesoftware.code-spell-checker",
-        "ms-azuretools.vscode-docker"
+        "ms-azuretools.vscode-docker",
+        "NomicFoundation.hardhat-solidity"
     ],
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
@@ -35,7 +36,7 @@
     },
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "yarn install",
-	"postAttachCommand": "git config --global --add safe.directory /workspaces/FEVM-Hardhat-Kit  && git config --global --unset http.sslbackend && git submodule update --remote",
+	"postAttachCommand": "git config --global --add safe.directory /workspaces/FEVM-integration  && git config --global --unset http.sslbackend && git submodule update --remote",
     "remoteUser": "node"
 
 	// Configure tool-specific properties.
